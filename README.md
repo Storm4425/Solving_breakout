@@ -19,17 +19,16 @@ outperforming the base DQN, as reported in the literature. The Double + Dueling 
  <br>
   
 This work follows the DQN implementations of the following papers:
-- (Playing Atari with Deep Reinforcement Learning)[https://arxiv.org/pdf/1312.5602.pdf]
+- [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602.pdf)
 - [Deep Reinforcement Learning with Double Q-learning](https://arxiv.org/pdf/1509.06461.pdf)
 - [Dueling Network Architectures for Deep Reinforcement Learning](https://arxiv.org/pdf/1511.06581.pdf)
 
 
  <br>
-
+You can watch here the performance of the trained agents for the different variations of DQN
 
  <br>
-You can watch here the performance of the trained agents for the different variations of DQN. 
-
+ 
 https://user-images.githubusercontent.com/104240454/225427891-bf5d71c2-38e9-49f6-9b34-ca3fd46ead46.mp4
 
  <br>
@@ -42,4 +41,6 @@ This repository contains the following files:
 Models implementation and visualization of the trained agent.
 
 - baseline_wrappers <br>
-The folder contains the files need to run main.ipynb, including a number of environment wrappers taken from OpenAI baselines and modified for this project, and code from https://github.com/lebedov/msgpack-numpy/blob/master/msgpack_numpy.py which is used to serialize numpy arrays in order to save the models.
+  - a number of environment wrappers taken from OpenAI baselines and adapted for this project
+  - code from https://github.com/lebedov/msgpack-numpy/blob/master/msgpack_numpy.py which is used to serialize numpy arrays
+  - additional supporting code
